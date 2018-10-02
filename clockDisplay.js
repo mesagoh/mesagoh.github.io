@@ -5,16 +5,20 @@ function setup() {
 }
 
 function draw() {
-  background(220);
-  fullscreen();
+  background(255);
   
   var hr = hour();
   var mn = minute();
   var sc = second();
 
-  fill(0);
-  textSize(60);
-  text(hr + ":" + mn + ":" + sc, windowWidth/2, windowHeight/2);
+  stroke(255,145,220);
+  strokeWeight(3);
+  //banana cream - fill(255,210,180)
+  fill(255,210,220);
+  textStyle(BOLD);
+  textSize(80);
+  textAlign(CENTER,CENTER);
+  text(hr + ":" + mn + ":" + sc, width/2, height*0.75);
 }
 
 
