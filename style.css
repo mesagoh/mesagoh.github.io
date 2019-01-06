@@ -182,9 +182,14 @@ li.content {
   background: #4E3188;
 }
 
+.fa-twitter:hover {
+  background: #00aced;
+}
+
 .fa-envelope:hover {
   background: #B70977;
 }
+
 
 .fa-facebook {
   position: relative;
@@ -206,6 +211,12 @@ li.content {
 }
 
 .fa-github {
+  position: relative;
+  background-color: grey;
+  color: white;
+}
+
+.fa-twitter {
   position: relative;
   background-color: grey;
   color: white;
