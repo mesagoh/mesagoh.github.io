@@ -125,6 +125,10 @@ body {
   transition: color 0.8s ease-in-out;
 }
 
+.list:link {
+  color: pink;
+}
+
 .list:visited {
   color: pink;
   text-decoration: none;
