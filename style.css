@@ -3,6 +3,14 @@ html, body {
   padding: 0;
 }
 
+.header{
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  background-color: white;
+  min-height: 132px;
+  text-align:center;
+}
 
 .content {
   font-family: "Andale Mono", monospace, cursive;
@@ -66,9 +74,6 @@ h2 {
   font-size: 70px;
 }
 
-.header {
-  text-decoration: none;
-}
 .header:link {
   color: black;
   text-decoration: none;
@@ -84,10 +89,6 @@ h2 {
   transition: color 0.8s ease-in-out;
 }
 
-.list:link{
-  color:pink;
-  text-decoration: none;
-}
 .list:visited {
   color: pink;
   text-decoration: none;
@@ -115,6 +116,7 @@ li.content {
   font-size: 40px;
 }
 
+/* Side Nav for Future */
 .sidenav{
   margin: auto;
   width: 130px;
@@ -140,13 +142,21 @@ li.content {
   transition: color 0.5s linear;
 }
 
+
+
+.header .fa {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -100px;
+}
+
 .fa {
   padding: 7px;
   font-size: 30px;
   width: 15px;
   text-align: center;
   text-decoration: none;
-  margin: auto;
+
   border-radius: 50%;
 }
 
@@ -178,40 +188,31 @@ li.content {
 
 .fa-facebook {
   position: relative;
-  left: 550px;
-  top: -55px;
   background-color: grey;
   color: white;
+  vertical-align: middle;
 }
 
 .fa-linkedin {
   position: relative;
-  left: 560px;
-  top: -55px;
   background-color: grey;
   color: white;
 }
 
 .fa-instagram {
   position: relative;
-  left: 570px;
-  top: -55px;
   background-color: grey;
   color: white;
 }
 
 .fa-github {
   position: relative;
-  left: 580px;
-  top: -55px;
   background-color: grey;
   color: white;
 }
 
 .fa-envelope {
   position: relative;
-  left: 590px;
-  top: -55px;
   background-color: grey;
   color: white;
 }
