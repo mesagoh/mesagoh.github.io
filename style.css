@@ -3,11 +3,6 @@ html, body {
   padding: 0;
 }
 
-.header{
-  position: relative;
-  text-decoration: none;
-}
-
 
 .content {
   font-family: "Andale Mono", monospace, cursive;
@@ -71,7 +66,7 @@ h2 {
   font-size: 70px;
 }
 
-.a:link {
+.header:link {
   color: black;
   text-decoration: underline;
 }
