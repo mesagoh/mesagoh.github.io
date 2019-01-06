@@ -85,6 +85,10 @@ a:link {
   transition: color 0.8s ease-in-out;
 }
 
+.list:link{
+  color:pink;
+  text-decoration: none;
+}
 .list:visited {
   color: pink;
   text-decoration: none;
