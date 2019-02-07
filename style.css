@@ -50,6 +50,7 @@ img.projects:hover {
   transition: 0.3s linear;
 }
 
+/*
 .button {
   font-family: "Andale Mono", monospace, cursive;
   display: inline-block;
@@ -73,6 +74,7 @@ img.projects:hover {
   border: 1px solid black;
 
 }
+*/
 
 /* GLOBAL STYLES */
 body {
