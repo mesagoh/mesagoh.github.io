@@ -77,7 +77,7 @@ img.projects:hover {
 */
 
 /* GLOBAL STYLES */
-body {
+.main {
   padding-top: 90px;
   display: flex;
   position: center;
