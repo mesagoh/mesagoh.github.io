@@ -1,31 +1,22 @@
-html, body {
-  margin: 0;
-  padding: 0;
+* {
+  background: rgb(241, 237, 224);
 }
 
 .header{
-  position: relative;
-  text-decoration: none;
-  background-color: white;
-  min-height: 132px;
-  text-align:center;
-  margin-left: 10px;
-
+  width: 400px;
+  min-width: 700px;
+  min-height: 150px;
+  margin: auto;
 }
 
 .container {
   font-family: "Andale Mono", monospace, cursive;
-  width: 550px;
-  border: fixed;
-  margin-left: 350px;
-  margin-top: 100px;
-  padding: 10px;
-  position: absolute;
-  top: -30px;
-}
-
-h1 {
-  display:inline-block;
+  width: 100px;
+  min-width: 550px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: left;
+  font-size: 100%;
 }
 
 .footer {
@@ -77,40 +68,29 @@ img.projects:hover {
 */
 
 /* GLOBAL STYLES */
-.main {
+ .main {
   padding-top: 90px;
-  display: flex;
-  position: center;
+  text-align: center; 
+} 
 
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: pink }
-}
-
-/* DEMO-SPECIFIC STYLES */
-.typewriter h1{
-  text-align: center;
+.header h1 {
   color: black;
-  font-family: 'Roboto Mono', monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid pink; /* The typewriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 2.5s steps(33, end),
-    blink-caret .5s step-end infinite;
+  font-family: "Andale Mono", monospace, cursive;
+  margin-left: 15px;
+  display: block;
+  margin: 2px 0 0 0;
 }
 
+img.waveEmoji {
+  display: inline-block;
+}
+
+.header img.iconPic {
+  float: left;
+  align-self: center;
+  margin-right: 10px;
+  border-radius: 100%;
+}
 
 .header:link {
   color: black;
@@ -123,16 +103,16 @@ img.projects:hover {
 }
 
 .header:hover {
-  color: pink;
+  color: rgb(241, 120, 140);
   transition: color 0.8s ease-in-out;
 }
 
 .list:link {
-  color: pink;
+  color: rgb(241, 120, 140);
 }
 
 .list:visited {
-  color: pink;
+  color: rgb(241, 120, 140);
   text-decoration: none;
 }
 
@@ -144,7 +124,7 @@ img.projects:hover {
 
 p.container {
   font-family: 'Noto Sans SC', sans-serif;
-  font-size: 50px;
+  font-size: 50vh;
 }
 
 li.container {
@@ -153,41 +133,15 @@ li.container {
 }
 
 .container a {
-  color: pink;
+  color: rgb(241, 120, 140);
 }
 .container a:hover {
   color: orange;
-  transition: color 1s;
-}
-
-/* Side Nav for Future */
-.sidenav{
-  margin: auto;
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 200px;
-  left: 10px;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a{
-  font-family: "Andale Mono", monospace, cursive;
-  color: black;
-  opacity: 0.5;
-  font-size: 20px;
-}
-
-.sidenav a:hover {
-  font-size: 23px;
-  font-style: italic;
-  color: pink;
-  transition: color 0.5s linear;
+  transition: color 0.8s ease-in-out;
 }
 
 
-
+/* icons in the header */
 .header .fa {
   display: inline-block;
   vertical-align: middle;
@@ -200,6 +154,7 @@ li.container {
   width: 15px;
   text-align: center;
   text-decoration: none;
+  background-color: transparent;
 }
 
 .fa:hover {
@@ -210,36 +165,30 @@ li.container {
 
 .fa-facebook {
   position: relative;
-  background-color: white;
   color: #3B5998;
 }
 
 .fa-linkedin {
   position: relative;
-  background-color: white;
   color: #007bb5;
 }
 
 .fa-instagram {
   position: relative;
-  background-color: white;
   color: #125688;
 }
 
 .fa-github {
   position: relative;
-  background-color: white;
   color: #4E3188;
 }
 
 .fa-twitter {
   position: relative;
-  background-color: white;
   color: #00aced;
 }
 
 .fa-envelope {
   position: relative;
-  background-color: white;
   color: #B70977;
 }
