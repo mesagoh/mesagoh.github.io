@@ -11,7 +11,7 @@
 } 
 
 .header{
-  max-width: 500px;
+  min-width: 500px;
   min-height: 150px;
   margin: 0 auto;
 }
@@ -21,6 +21,13 @@
   margin-left: 15px;
   margin: 10px 0px;
   font-size: 140%;
+}
+
+.header .socialMediaIcons {
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .container {
@@ -110,13 +117,11 @@ img.projects:hover {
   } 
 
   .header{
+    min-width: 0;
     margin: 0 auto;
   }
   .header h1 {
-    color: black;
-    font-family: "Andale Mono", monospace, cursive;
-    display: block;
-    font-size: 20px;
+    display: none;
   }
 
   .header img.waveEmoji {
@@ -124,12 +129,17 @@ img.projects:hover {
     height: 20px;
   }
 
+  .header .socialMediaIcons {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
   .container {
     font-family: "Andale Mono", monospace, cursive;
     margin: 10px 10px;
     margin-top: 40px;
     text-align: left;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .header img.iconPic {
