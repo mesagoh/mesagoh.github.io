@@ -2,70 +2,44 @@
   background: rgb(241, 237, 224);
 }
 
-@media screen and (min-width: 400px) {
-  .header{
-    width: 700px;
-    min-width: 500px;
-    min-height: 150px;
-    margin: 0 auto;
-  }
-  .header h1 {
-    color: black;
-    font-family: "Andale Mono", monospace, cursive;
-    display: block;
-    margin-left: 15px;
-    margin: 10px 0px;
-  }
+/* GLOBAL STYLES */
+.main {
+  padding-top: 5%;
+  text-align: center; 
+  font-family: "Andale Mono", monospace, cursive;
+  width: 95%;
+} 
 
-  .container {
-    font-family: "Andale Mono", monospace, cursive;
-    width: 100px;
-    min-width: 550px;
-    margin: 0 auto;
-    margin-top: 40px;
-    text-align: left;
-    font-size: 100%;
-  }
+.header{
+  max-width: 500px;
+  min-height: 150px;
+  margin: 0 auto;
+}
+.header h1 {
+  color: black;
+  display: block;
+  margin-left: 15px;
+  margin: 10px 0px;
+  font-size: 140%;
 }
 
-@media screen and (max-width: 400px) {
-  .header{
-    width: 400px;
-    min-width: 390px;
-    min-height: 150px;
-    margin: 0 auto;
-  }
-  .header h1 {
-    color: black;
-    font-family: "Andale Mono", monospace, cursive;
-    display: block;
-    font-size: 20px;
-  }
-
-  .header img.waveEmoji {
-    width: 20px;
-    height: 20px;
-  }
-
-  .container {
-    font-family: "Andale Mono", monospace, cursive;
-    width: 300px;
-    max-width: 380px;
-    margin: 10px auto;
-    margin-top: 40px;
-    text-align: left;
-    font-size: 15px;
-  }
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: left;
 }
 
 
 .footer {
-  font-family: "Andale Mono", monospace, cursive;
   font-style: italic;
   position: fixed;
-  left: 0;
-  bottom: 0;
   color: grey;
+  left: 5px;
+  bottom: 5px;
+  margin-top:10px;
+  margin-right:10px;
+  font-size: 80%;
 }
 
 img.projects {
@@ -81,33 +55,12 @@ img.projects:hover {
   transition: 0.3s linear;
 }
 
-/* GLOBAL STYLES */
- .main {
-  padding-top: 90px;
-  text-align: center; 
-} 
 
-
-
-/* img.waveEmoji {
-  display: inline-block;
-} */
-
-@media screen and (min-width: 400px) {
-  .header img.iconPic {
-    float:left;
-    align-self: center;
-    margin-right: 10px;
-    border-radius: 100%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .header img.iconPic {
-    align-self: center;
-    border-radius: 100%;
-  }
-  
+.header img.iconPic {
+  float:left;
+  align-self: center;
+  margin-right: 10px;
+  border-radius: 100%;
 }
 
 .header:link {
@@ -140,22 +93,51 @@ img.projects:hover {
   transition: color 0.8s ease-in-out;
 }
 
-p.container {
-  font-family: 'Noto Sans SC', sans-serif;
-  font-size: 50vh;
-}
-
-li.container {
-  font-family: "Andale Mono", monospace, cursive;
-  font-size: 40px;
-}
-
 .container a {
   color: rgb(241, 120, 140);
 }
 .container a:hover {
   color: orange;
   transition: color 0.8s ease-in-out;
+}
+
+/* Mobile*/
+@media (max-width: 400px) {
+  .main {
+    padding-top: 10%;
+    text-align: center; 
+    width: 95%;
+  } 
+
+  .header{
+    margin: 0 auto;
+  }
+  .header h1 {
+    color: black;
+    font-family: "Andale Mono", monospace, cursive;
+    display: block;
+    font-size: 20px;
+  }
+
+  .header img.waveEmoji {
+    width: 20px;
+    height: 20px;
+  }
+
+  .container {
+    font-family: "Andale Mono", monospace, cursive;
+    margin: 10px 10px;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .header img.iconPic {
+    float: none;
+    margin-right: 0;
+    align-self: center;
+    border-radius: 100%;
+  }
 }
 
 
@@ -179,8 +161,6 @@ li.container {
   text-shadow: 3px 3px lightgrey;
   transition: 0.3s linear;
 }
-
-
 
 .fa-linkedin {
   position: relative;
