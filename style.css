@@ -12,15 +12,17 @@
 
 .header{
   min-width: 500px;
+  max-width: 500px;
   min-height: 150px;
   margin: 0 auto;
 }
 .header h1 {
+  font-family: Helvetica;
   color: black;
   display: block;
   margin-left: 15px;
   margin: 10px 0px;
-  font-size: 140%;
+  font-size: 150%;
 }
 
 .header .socialMediaIcons {
@@ -31,6 +33,7 @@
 }
 
 .container {
+  min-width: 500px;
   max-width: 500px;
   margin: 0 auto;
   margin-top: 40px;
@@ -109,12 +112,7 @@ img.projects:hover {
 }
 
 /* Mobile*/
-@media (max-width: 400px) {
-  .main {
-    padding-top: 10%;
-    text-align: center; 
-    width: 95%;
-  } 
+@media (max-width: 400px) { 
 
   .header{
     min-width: 0;
@@ -135,6 +133,7 @@ img.projects:hover {
   }
 
   .container {
+    min-width: 0;
     font-family: "Andale Mono", monospace, cursive;
     margin: 10px 10px;
     margin-top: 40px;
