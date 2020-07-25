@@ -8,30 +8,42 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-131804568-1');
+
+  function toggleMode() {
+    let modeBtn = document.querySelector(".mode")
+    if (modeBtn.textContent == "L") {
+      modeBtn.textContent = "D"
+    } else {
+      modeBtn.textContent = "L"
+    }
+  }
 </script>
     <title>mesagoh.github.io</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="lightstyle.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+  <!-- <div onclick=toggleMode() class="mode">
+    L
+  </div> -->
   <body class="main">
 
     <!---Header --->
+    
 
     <div class="container">
-        <img src="./media/mesagoh.jpeg" class="iconPic" alt="Melissa @ CNY 2017" width="150" height="150" align="top"
+        <img src="./media/mesa-yellow.jpg" class="iconPic" alt="Melissa @ Yellow Background" width="150" height="150" align="top"
         onmouseover="this.src='./media/surprised-pika.png';"
-        onmouseout="this.src='/media/mesagoh.jpeg';">
+        onmouseout="this.src='/media/mesa-yellow.jpg';">
 
       <h1><a href="index.html" class="header">Hi, I'm Melissa Goh! </a>
         <img src="./media/waving-emoji.gif" class="waveEmoji" width="40" height="40" alt="waving">
       </h1>
-      <p>Currently in my final year studying Computer Science at <a href="https://ucdavis.edu">UC Davis</a>. 
+      <p>Recent graduate of Computer Science at <a href="https://ucdavis.edu">UC Davis</a>. 
         I'm interested in all things related to software development, design and blockchain. 
       </p>
       <p>  
@@ -39,9 +51,9 @@
       We were featured on UC Davis College of Engineering's <a href="https://www.linkedin.com/posts/uc-davis-college-of-engineering_gratituesday-activity-6602623573901344768-9aZU">page</a> for a horse-betting application that we built with Vue.js and Firebase. 
       This project, including others, can be found on my <a href="https://github.com/mesagoh">Github</a> page.
       </p>
-      <p>Other than software development, I enjoy <a href="https://instagram.com/gbrmes">taking pictures</a>, travelling, and hiking. 
+      <p>Other than software development, I love <a href="https://instagram.com/gbrmes">taking pictures</a>, travelling, and hiking. 
         I <a href="https://twitter.com/mesagoh">tweet</a> sometimes. </p>
-    </div>
+      </div>
 
     <div class="footer">
       Made with <3 by Melissa Goh, 2018-2020
