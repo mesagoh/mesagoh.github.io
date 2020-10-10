@@ -1,0 +1,215 @@
+* {
+    background: rgb(71, 78, 76);
+  }
+  
+  .mode {
+    float: right;
+    border: solid 1px grey;
+    border-radius: 100%;
+    padding: 10px 15px;
+  }
+  
+  /* GLOBAL STYLES */
+  .main {
+    padding-top: 5%;
+    text-align: center; 
+    font-family: "Andale Mono", monospace, cursive;
+    width: 95%;
+  } 
+  
+  .header{
+    min-width: 500px;
+    max-width: 510px;
+    min-height: 150px;
+    margin: 0 auto;
+  }
+  .container p {
+    text-indent: 7%;
+  }
+  .container h1 {
+    font-family: Helvetica;
+    color: black;
+    display: block;
+    margin-left: 15px;
+    margin: 10px 0px;
+    font-size: 150%;
+  }
+  
+  .header .socialMediaIcons {
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .container {
+    min-width: 520px;
+    max-width: 520px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  
+  .footer {
+    font-style: italic;
+    position: fixed;
+    color: grey;
+    left: 5px;
+    bottom: 5px;
+    margin-top:10px;
+    margin-right:10px;
+    font-size: 80%;
+  }
+  
+  img.projects {
+    -webkit-filter: grayscale(1);
+    margin-left: 300px;
+    width: 550px;
+    height: 300px;
+  }
+  
+  img.projects:hover {
+    -webkit-filter: grayscale(0);
+    transform: scale(1.05);
+    transition: 0.3s linear;
+  }
+  
+  
+  .container img.iconPic {
+    float:left;
+    align-self: center;
+    margin-right: 30px;
+    border-radius: 100%;
+  }
+  
+  .header:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header:hover {
+    color: rgb(241, 120, 140);
+    transition: color 0.8s ease-in-out;
+  }
+  
+  .list:link {
+    color: rgb(241, 120, 140);
+  }
+  
+  .list:visited {
+    color: rgb(241, 120, 140);
+    text-decoration: none;
+  }
+  
+  .list:hover {
+    color:orange;
+    text-decoration: none;
+    transition: color 0.8s ease-in-out;
+  }
+  
+  .container a {
+    color: rgb(241, 120, 140);
+  }
+  .container a:hover {
+    color: orange;
+    transition: color 0.8s ease-in-out;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+      min-width: 0;
+      font-family: "Andale Mono", monospace, cursive;
+      margin: 20px 20px;
+      margin-top: 40px;
+      text-align: left;
+      font-size: 13px;
+    }
+  }
+  
+  /* Mobile*/
+  @media (max-width: 400px) { 
+  
+    .header{
+      min-width: 0;
+      margin: 0 auto;
+    }
+    .container h1 {
+      text-align: center;
+    }
+  
+    .header img.waveEmoji {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .header .socialMediaIcons {
+      margin: 0 auto;
+      justify-content: center;
+    }
+  
+    .container {
+      min-width: 0;
+      font-family: "Andale Mono", monospace, cursive;
+      margin: 20px 20px;
+      margin-top: 40px;
+      text-align: left;
+      font-size: 13px;
+    }
+  
+    .container img.iconPic {
+      float: none;
+      display: block;
+      margin:auto;
+      border-radius: 100%;
+    }
+  }
+  
+  
+  /* icons in the header */
+  .header .fa {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+  }
+  
+  .fa {
+    padding: 5px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  .fa:hover {
+    text-shadow: 3px 3px lightgrey;
+    transition: 0.3s linear;
+  }
+  
+  .fa-linkedin {
+    position: relative;
+    color: #007bb5;
+  }
+  
+  .fa-instagram {
+    position: relative;
+    color: #B70977;
+  }
+  
+  .fa-github {
+    position: relative;
+    color: #4E3188;
+  }
+  
+  .fa-twitter {
+    position: relative;
+    color: #00aced;
+  }
+  
+  
