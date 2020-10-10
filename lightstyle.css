@@ -158,7 +158,8 @@ img.projects:hover {
     min-width: 0;
     font-family: "Andale Mono", monospace, cursive;
     margin: 20px 20px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 70px;
     text-align: left;
     font-size: 13px;
   }
