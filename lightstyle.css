@@ -5,7 +5,7 @@
 .mode {
   float: right;
   border: solid 1px grey;
-  border-radius: 100%;
+  /*border-radius: 100%;*/
   padding: 10px 15px;
 }
 
@@ -81,7 +81,7 @@ img.projects:hover {
   float:left;
   align-self: center;
   margin-right: 30px;
-  border-radius: 100%;
+  /*border-radius: 100%;*/
 }
 
 .header:link {
@@ -168,7 +168,7 @@ img.projects:hover {
     float: none;
     display: block;
     margin:auto;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
   }
 }
 
