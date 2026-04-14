@@ -2,7 +2,7 @@ name: Build and deploy
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 permissions:
   contents: read
@@ -104,4 +104,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
-        
