@@ -1,4 +1,4 @@
-baseURL = 'https://mesagoh.github.io/'
+baseURL = 'https://mesagoh.github.io/blog'
 locale = 'en-us'
 title = 'MBG'
 theme = 'PaperMod'
