@@ -1,0 +1,4 @@
+baseURL = 'http://mesagoh.github.io/'
+languageCode = 'en-us'
+title = 'MBG'
+theme = 'PaperMod'
