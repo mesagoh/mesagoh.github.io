@@ -1,7 +1,7 @@
 ---
 title: "Blog Tutorial (Github Pages + Hugo)"
 date: 2026-04-13T21:11:46-07:00
-draft: true
+draft: false
 ---
 My website is a simple HTML+CSS base, hosted on GitHub Pages. I wanted to extend this page to contain a collection of writings, thoughts, learnings. I've decided to try out [Hugo](https://gohugo.io), due to its reputation of being the world's fastest static site generator (SSG).
 

@@ -2,3 +2,6 @@ baseURL = 'https://mesagoh.github.io/blog'
 locale = 'en-us'
 title = 'MBG'
 theme = 'PaperMod'
+
+[params]
+    mainSections = ["blog", "posts"]
