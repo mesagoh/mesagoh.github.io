@@ -5,3 +5,19 @@ theme = 'PaperMod'
 
 [params]
     mainSections = ["blog", "posts"]
+
+[params.homeInfoParams]
+    Title = "Hi, it's Melissa!"
+    Content = "Software Engineer by trade; explorer by nature. When I’m not at my laptop, you’ll likely find me on a hiking trail, at a bookstore, or scouting the city of Seattle for the best new eats. Here lays a collection of things I've learned from my daily life - ranging from my technical curiosities with the ever changing Tech field, to my reviews of books, restaurants, recipes."
+
+[[params.socialIcons]]
+    name = "X"
+    url = "https://x.com/mesagoh"
+
+[[params.socialIcons]]
+    name = "Linkedin"
+    url = "https://linkedin.com/in/melissabgoh"
+
+[[params.socialIcons]]
+    name = "Github"
+    url = "https:/github.com/mesagoh"
