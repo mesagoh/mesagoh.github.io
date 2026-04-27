@@ -6,24 +6,42 @@
     <description>Recent content in Posts on MBG</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 21:36:54 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 15:07:37 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Articles April 2026</title>
+      <title>Book Review: Immaculate Conception</title>
+      <link>http://localhost:1313/blog/posts/immaculate-conception/</link>
+      <pubDate>Mon, 27 Apr 2026 15:07:37 -0700</pubDate>
+      <guid>http://localhost:1313/blog/posts/immaculate-conception/</guid>
+      <description>&lt;p&gt;Immaculate Conception - Ling Ling Huang&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;This is a sci-fi novel about two best friends - Enka and Mathilde, who met in art school. The story is written in the perspective of Enka, who is hard-working, and had entered the prestigious art school through a scholarship for under-privileged students. There, she meets Mathilde, a prodigy in art and admired by many.&lt;/p&gt;
+&lt;p&gt;The two ended up bonding when Enka cared for Mathilde while she was emotionally vulnerable. On the surface level, they are best friends. But deep down, we see how Enka deals with her jealousy and obsession over Mathilde. Enka becomes envious and helpless over Mathilde&amp;rsquo;s success due to her natural talent in art, developing groundbreaking work over and over.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>High Agency</title>
+      <link>http://localhost:1313/blog/posts/high-agency/</link>
+      <pubDate>Sun, 19 Apr 2026 23:45:43 -0700</pubDate>
+      <guid>http://localhost:1313/blog/posts/high-agency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Articles about High Agency</title>
       <link>http://localhost:1313/blog/posts/articles-april-2026/</link>
       <pubDate>Tue, 14 Apr 2026 21:36:54 -0700</pubDate>
       <guid>http://localhost:1313/blog/posts/articles-april-2026/</guid>
       <description>&lt;p&gt;Some articles I would like to read but haven&amp;rsquo;t gotten the chance to.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&amp;ldquo;How to do what you love&amp;rdquo; by Paul Graham&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Hell yeah/ no&amp;rdquo; by Derek Silvers&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;How to pick a career&amp;rdquo; by Tim Urban&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Make your work your calling&amp;rdquo; by Arthur Brooks&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Guide to career planning&amp;rdquo; by Andresen&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;High Agency&amp;rdquo; by George Mack&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;High Agency and the frustrated genius&amp;rdquo; by Shreyas Doshi&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;High Agency&amp;rdquo; by Nick Wignall&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://paulgraham.com/love.html&#34;&gt;How to Do What You Love&lt;/a&gt; by Paul Graham&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sive.rs/hellyeah&#34;&gt;No “yes.” Either “HELL YEAH!” or “no.”&lt;/a&gt; by Derek Sivers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://waitbutwhy.com/2018/04/picking-career.html&#34;&gt;How to Pick a Career (That Actually Fits You)&lt;/a&gt; by Tim Urban&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theatlantic.com/ideas/archive/2025/06/make-your-work-your-calling/683330/&#34;&gt;Make Your Work Your Calling&lt;/a&gt; by Arthur Brooks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pmarchive.com/guide_to_career_planning_part0.html&#34;&gt;The Pmarca Guide to Career Planning&lt;/a&gt; by Marc Andreessen&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.highagency.com/&#34;&gt;High Agency in 30 Minutes&lt;/a&gt; by George Mack&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/high-agency-its-importance-how-cultivate-shreyas-doshi/&#34;&gt;High Agency: what is it, why it is important, and how to cultivate it &lt;/a&gt; by Shreyas Doshi&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nickwignall.com/high-agency-mindset/&#34;&gt;The High Agency Mindset&lt;/a&gt; by Nick Wignall&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Review on these articles coming up next!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blog Tutorial (Github Pages &#43; Hugo)</title>
