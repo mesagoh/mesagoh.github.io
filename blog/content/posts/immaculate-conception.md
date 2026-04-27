@@ -29,6 +29,4 @@ I was drawn to this book due to the theme surrounding women friendships. The amo
 
 Enka's jealousy over Mathilde is fueled by her weak sense of self, which eventually destroys her friendship with Mathilde. What I learned is that self-esteem is so important in a friendship. A good friendship is when two people support each other and want the best for each other. To know if you have a healthy friendship, pay attention to how you feel when you spend time with them -- Do you feel inspired and recharged after? Or do you feel drained and pessimistic?
 
-Drawing boundaries can be difficult, but is absolutely necessary for your mental health. I see this type of scenarios like a bonsai - trimming off unhealthy branches and leaves are essential for the growth of the plant. There comes a point where you have to stop pleasing others and prioritize yourself! Perhaps if Enka knew to focus on herself and **her own growth**, her life would turn out to be fulfilling, grounded, and genuinely made for her.
-
-
+Drawing boundaries can be difficult, but is absolutely necessary for your mental health. I see this type of scenarios like a bonsai - trimming off unhealthy branches and leaves are essential for the growth of the plant. There comes a point where you have to stop pleasing others and prioritize yourself! Perhaps by focusing on her own growth, Enka could have created a life that is both grounded, and authentically hers.
