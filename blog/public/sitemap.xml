@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/tags/book/</loc>
+    <lastmod>2026-04-27T15:07:37-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/posts/immaculate-conception/</loc>
     <lastmod>2026-04-27T15:07:37-07:00</lastmod>
   </url><url>
@@ -9,6 +12,12 @@
     <lastmod>2026-04-27T15:07:37-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/posts/</loc>
+    <lastmod>2026-04-27T15:07:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2026-04-27T15:07:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/thoughts/</loc>
     <lastmod>2026-04-27T15:07:37-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/posts/high-agency/</loc>
@@ -20,8 +29,9 @@
     <loc>http://localhost:1313/blog/posts/blog-tutorial/</loc>
     <lastmod>2026-04-13T21:11:46-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
+    <loc>http://localhost:1313/blog/tags/newskill/</loc>
+    <lastmod>2026-04-13T21:11:46-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>http://localhost:1313/blog/categories/</loc>
   </url>
 </urlset>
