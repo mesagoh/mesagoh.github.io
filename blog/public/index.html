@@ -97,21 +97,30 @@
             </div>
         </div>
         <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Hi, it&rsquo;s Melissa!</h1>
-    </header>
-    <div class="entry-content md-content">
+    <div class="profile-layout" style="display: flex; align-items: flex-start; gap: 20px;">
+        <img src="/blog/images/mbg_IMG_4653.JPG" alt="Profile picture of Melissa" width="200" height="200" style="border-radius: 50%; flex-shrink: 0;">
         
-        <p>Software Engineer by trade; explorer by nature. When I’m not at my laptop, you’ll likely find me on a hiking trail, at a bookstore, or scouting the city of Seattle for the best new eats. Here lays a collection of things I&rsquo;ve learned from my daily life - ranging from my technical curiosities with the ever changing Tech field, to my reviews of books, restaurants, recipes.</p>
+        <div class="profile-text-content">
+            <header class="entry-header">
+                <h1>Hi, it&rsquo;s Melissa!</h1>
+            </header>
+            <div class="entry-content md-content">
+                
+                <p>Software Engineer by trade; explorer by nature. When I’m not at my laptop, you’ll likely find me on a hiking trail, at a bookstore, or scouting the city of Seattle for the best new eats. Here lays a collection of things I&rsquo;ve learned from my daily life - ranging from my technical curiosities surrounding the ever-changing Tech field, to my reviews of books, restaurants, recipes.</p>
 
-    </div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
+            </div>
+            <footer class="entry-footer">
+                <div class="social-icons" >
     <a href="https://x.com/mesagoh" target="_blank" rel="noopener noreferrer me"
         title="X">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -129,7 +138,7 @@
     <circle cx="4" cy="4" r="2"></circle>
 </svg>
     </a>
-    <a href="https:/github.com/mesagoh" target="_blank" rel="noopener noreferrer me"
+    <a href="https://github.com/mesagoh" target="_blank" rel="noopener noreferrer me"
         title="Github">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
@@ -140,18 +149,15 @@
     </a>
 </div>
 
-    </footer>
+            </footer>
+        </div>
+    </div>
+    
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">Book Review: Immaculate Conception
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
     </h2>
   </header>
   <div class="entry-content">
@@ -163,6 +169,19 @@ The two ended up bonding when Enka cared for Mathilde while she was emotionally 
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-27 15:07:37 -0700 PDT'>April 27, 2026</span></footer>
+  <div class="tags" style="margin-top: 10px; font-size: 15px;">
+      
+          <a href="/blog/tags/book" 
+             style="margin-right: 10px; text-decoration: underline; z-index: 10; position: relative;">
+              #book
+          </a>
+      
+          <a href="/blog/tags/thoughts" 
+             style="margin-right: 10px; text-decoration: underline; z-index: 10; position: relative;">
+              #thoughts
+          </a>
+      
+  </div>
   <a class="entry-link" aria-label="post link to Book Review: Immaculate Conception" href="http://localhost:1313/blog/posts/immaculate-conception/"></a>
 </article>
 
@@ -178,7 +197,9 @@ The two ended up bonding when Enka cared for Mathilde while she was emotionally 
     </h2>
   </header>
   <div class="entry-content">
-    <p></p>
+    <p>Work still seemed to require discipline, because only hard problems yielded grand results, and hard problems couldn’t literally be fun.
+The rule about doing what you love assumes a certain length of time. It doesn’t mean, do what will make you happiest this second, but what will make you happiest over some longer period, like a week or a month. To be happy I think you have to be doing something you not only enjoy, but admire. You have to be able to say, at the end, wow, that’s pretty cool.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-19 23:45:43 -0700 PDT'>April 19, 2026</span></footer>
   <a class="entry-link" aria-label="post link to High Agency" href="http://localhost:1313/blog/posts/high-agency/"></a>
@@ -210,6 +231,14 @@ Download the latest .deb Install: sudo dpkg -i hugo*.deb Verify version: hugo ve
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-13 21:11:46 -0700 PDT'>April 13, 2026</span></footer>
+  <div class="tags" style="margin-top: 10px; font-size: 15px;">
+      
+          <a href="/blog/tags/newskill" 
+             style="margin-right: 10px; text-decoration: underline; z-index: 10; position: relative;">
+              #newskill
+          </a>
+      
+  </div>
   <a class="entry-link" aria-label="post link to Blog Tutorial (Github Pages &#43; Hugo)" href="http://localhost:1313/blog/posts/blog-tutorial/"></a>
 </article>
     </main>

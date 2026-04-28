@@ -2,6 +2,7 @@
 date = '2026-04-27T15:07:37-07:00'
 draft = false
 title = 'Book Review: Immaculate Conception'
+tags = ["book", "thoughts"]
 +++
 
 Title: Immaculate Conception
@@ -16,7 +17,7 @@ This is a sci-fi novel about two best friends - Enka and Mathilde, who met in ar
 
 The two ended up bonding when Enka cared for Mathilde while she was emotionally vulnerable. On the surface level, they are best friends. But deep down, we see how Enka deals with her jealousy and obsession over Mathilde. Enka becomes envious and helpless over Mathilde's success due to her natural talent in art, developing groundbreaking work over and over.
 
-The story pivots when Enka breaks through the this cycle and contacts the sponsor of her scholarship program in hopes of getting a career opportunity. She ends up marrying the billionaire behind the company that sponsored her scholarship, which throws her to enter the wealthy elite circle and the technology it produces.
+The story pivots when Enka breaks through the this cycle and contacts the sponsor of her scholarship program in hopes of getting a career opportunity. She ends up marrying the billionaire behind the company that sponsored her scholarship, which thrusts her into the wealthy elite circle and the technology it produces.
 
 At this point, Enka's life and all the decisions she made had been built based on her obsession over competing with Mathilde. Through the SCAFFOLD mind-melding procedure, Enka took the opportunity to invade and occupy Mathilde's mind. The story unfolds through Enka's guilt building up and Mathilde eventually finding out Enka's intention since the beggining of their friendship.
 

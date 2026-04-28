@@ -7,8 +7,9 @@ theme = 'PaperMod'
     mainSections = ["blog", "posts"]
 
 [params.homeInfoParams]
+    imageUrl = "/images/mbg_IMG_4653.JPG"
     Title = "Hi, it's Melissa!"
-    Content = "Software Engineer by trade; explorer by nature. When I’m not at my laptop, you’ll likely find me on a hiking trail, at a bookstore, or scouting the city of Seattle for the best new eats. Here lays a collection of things I've learned from my daily life - ranging from my technical curiosities with the ever changing Tech field, to my reviews of books, restaurants, recipes."
+    Content = "Software Engineer by trade; explorer by nature. When I’m not at my laptop, you’ll likely find me on a hiking trail, at a bookstore, or scouting the city of Seattle for the best new eats. Here lays a collection of things I've learned from my daily life - ranging from my technical curiosities surrounding the ever-changing Tech field, to my reviews of books, restaurants, recipes."
 
 [[params.socialIcons]]
     name = "X"
@@ -21,3 +22,13 @@ theme = 'PaperMod'
 [[params.socialIcons]]
     name = "Github"
     url = "https://github.com/mesagoh"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
